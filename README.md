@@ -1,7 +1,6 @@
 # FProject
 
-Physical Script
-The project uses arduino to sense data and send the reading to AWS debian instants
+Physical Script - yun-fsr-led-simple.ino (arduino to sense data and send the reading to AWS debian instants)
 
 AWS Script
 1) cps.php -> The script connect,and insert the value into the database.
