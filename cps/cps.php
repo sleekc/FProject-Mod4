@@ -1,5 +1,7 @@
 <?php
 
+require("phpMQTT.php");
+
 if (isset($_GET["s"]))
 {
 
@@ -25,5 +27,9 @@ mysql_close($conn);
 $e = date("h:i:sa");
 
 mail("1571548E@student.tp.edu.sg"," FT-RM1-$e !!! ","Customer Paging - Fitting RM 1 - Time $e !!!");
+
+$mqtt = new phpMQTT("getmylaundry.net", 1883, "cpsftrm1"); //Change client name to something unique
+if ($mqtt->connect()){$mqtt->publish("ftrm","1".date("r"),0);$mqtt->close();}
+
 }
 ?>
