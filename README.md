@@ -12,7 +12,7 @@ Folder -> cps contain php script that is in AWS
 
 3)cpsdashb.html/index.html/indexl.html->a script that read the json data from cpsdata.php and draw on a line or bar chart.
 
-4)phpMQTT.php -> MQTT script require by cps.php to publish to mqtt server.
+4)phpMQTT.php -> MQTT script require by cps.php to publish to mqtt server. Source: https://github.com/bluerhinos/phpMQTT
 
 Folder -> mqtt_esp8266-240516-nodemcu-client1/2 (script to subscript to topic ftrm and LED on when value 1 is received)
 
