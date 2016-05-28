@@ -6,9 +6,8 @@ https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mys
 2) Setting up Email notification using msmtp 
 https://www.digitalocean.com/community/tutorials/how-to-use-gmail-or-yahoo-with-php-mail-function
 
-3) Setting up MQTT server
-https://pallavichaurasia94.wordpress.com/2014/10/14/mosquitto-in-debian/
-
-4) Setting Up Google Chart
+3) Setting Up Google Chart
 http://www.kometschuh.de/GoogleChartToolswithJSON.html
 
+4) Setting up MQTT server
+https://pallavichaurasia94.wordpress.com/2014/10/14/mosquitto-in-debian/
