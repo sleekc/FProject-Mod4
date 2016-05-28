@@ -8,4 +8,4 @@ AWS Script
 
 2)cpsdata.php->Script the do a sql query, count all the reading in a day, prepare the return data in json for google chart.
 
-3)cpsdashb.html->a script that read the json data from cpsdata.php and draw on a line or bar chart.
+3)cpsdashb.html/index.html/indexl.html->a script that read the json data from cpsdata.php and draw on a line or bar chart.
