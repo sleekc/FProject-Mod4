@@ -1,4 +1,4 @@
-# FProject
+FProject
 
 Physical Script - yun-fsr-led-simple.ino (arduino to sense data and send the reading to AWS debian instants)
 
