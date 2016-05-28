@@ -1,5 +1,7 @@
 FProject
 
+Folder -> AWS-Debian contain resouces on setting up the required services
+
 Folder -> Arduino-Nodemcu-Fritzing Img contain Arduino + FSR Sensor, Nodemcu + LED wiring diagram.
 
 Folder -> cps contain php script that is in AWS
