@@ -6,12 +6,7 @@
        
     $db =  mysql_connect($dbhost,$dblogin,$dbpwd);
     mysql_select_db($dbname);    
-	
-    //$day = date('d');
-    //$month = date('m');
-    //$lastMonth = (string)($month-1);	
-    //$lastMonth = strlen($month - 1) == 1? '0'.$lastMonth : $lastMonth;
-    
+
     $SQLString = "SELECT count(r) AS count, date FROM one GROUP BY date ORDER BY date";		
 										
     $result = mysql_query($SQLString);    
