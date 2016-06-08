@@ -19,15 +19,6 @@ const int ledPin =  13;      // the number of the LED pin
 
 // Variables will change :
 int ledState = LOW;             // ledState used to set the LED
-
-// Generally, you should use "unsigned long" for variables that hold time
-// The value will quickly become too large for an int to store
-unsigned long previousMillis = 0;        // will store last time LED was updated
-
-// constants won't change :
-const long interval = 1000;           // interval at which to blink (milliseconds)
-
-
 int fsrPin = 0;
 int fsrReading;
 
@@ -43,8 +34,7 @@ delay(10000); // give the Ethernet shield a second to initialize:
 }
  
 void loop(void) {
-  //delay(60000); 
-  unsigned long currentMillis = millis();
+  
   fsrReading = analogRead(fsrPin);  
   Serial.print("Analog reading = ");
   Serial.print(fsrReading);     // the raw analog reading

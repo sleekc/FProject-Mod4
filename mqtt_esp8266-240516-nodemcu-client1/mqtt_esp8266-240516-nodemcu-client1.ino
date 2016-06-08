@@ -61,7 +61,7 @@ void reconnect() {
   while (!client.connected()) {
     Serial.print("Attempting MQTT connection...");
     // Attempt to connect
-    if (client.connect("ESP8266Client1")) {
+    if (client.connect("ESP8266Client3")) {
       Serial.println("connected");
       client.subscribe("ftrm");
     } else {
