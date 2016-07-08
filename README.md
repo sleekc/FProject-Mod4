@@ -17,3 +17,5 @@ Folder -> cps contain php script that is in AWS
 Folder -> mqtt_esp8266-240516-nodemcu-client1/2 (script to subscript to topic ftrm and LED on when value 1 is received)
 
 Folder -> yun-fsr-led-simple contain yun-fsr-led-simple.ino (Arduino to read sensor data and send the reading to AWS debian)
+
+Folder -> yun-fsr-led-jcs-simple contain yun-fsr-led-jcs-simple.ino (Arduino to send sensor data to JCS system in TP)
