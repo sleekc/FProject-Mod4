@@ -8,17 +8,17 @@
 #include <YunServer.h>
 
 //byte mac[] = { 0x90, 0xA2, 0xDA, 0x00, 0x39, 0xA7 };
-IPAddress server(52,11,215,248);//AWS
+//IPAddress server(52,11,215,248);//AWS
 //IPAddress ip(192, 168, 0, 177);//static ip for router
 //EthernetClient client;
 YunClient client;
 
  
 // constants won't change. Used here to set a pin number :
-const int ledPin =  13;      // the number of the LED pin
-const int jcsPin =  12;
-// Variables will change :
+const int ledPin =  8;      // the number of the LED pin
+const int jcsPin =  13;
 
+// Variables will change :
 //int ledState = LOW;             // ledState used to set the LED
 int fsrPin = 0;
 int fsrReading;
@@ -29,7 +29,6 @@ void setup() {
 Bridge.begin();
 Serial.begin(9600);
 pinMode(ledPin, OUTPUT);
-pinMode(jcsPin, OUTPUT);
 
 //Ethernet.begin(mac, ip);
 delay(10000); // give the Ethernet shield a second to initialize:
@@ -60,13 +59,11 @@ void loop(void) {
    client.println("");
    client.stop();
    digitalWrite(ledPin, HIGH);
-   digitalWrite(jcsPin, HIGH);
+   digitalWrite(jcsPin, LOW);
    delay(60000);
    digitalWrite(ledPin, LOW);
-   digitalWrite(jcsPin, LOW);
+   digitalWrite(jcsPin, HIGH);
+   
    }
    
   }
-
-  
-
