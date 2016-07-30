@@ -12,6 +12,6 @@ Folder -> cps ->contain php script that is in AWS
 
 4)phpMQTT.php -> MQTT script require by cps.php to publish to mqtt server. Source: https://github.com/bluerhinos/phpMQTT
 
-Folder -> mqtt_esp8266-240516-nodemcu-client1/2 -> script to subscript to topic ftrm and LED on when value 1 is received.
+Folder -> mqtt_esp8266-240516-nodemcu-client1/2 -> script to subscribe to topic ftrm and LED on when value 1 is received.
 
 Folder -> yun-fsr-led-jcs-simple -> contain yun-fsr-led-jcs-simple.ino (Arduino scripts to read/send sensor data to AWS and trigger JCS system in TP via 5v Relay)
